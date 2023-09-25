@@ -67,10 +67,10 @@ CREATE TABLE `custlogin` (
 --
 
 INSERT INTO `custlogin` (`id`, `name`, `password`, `cpassword`) VALUES
-(1, 'Jessica', '', ''),
-(2, 'Ansilla', 'abc', 'abc'),
-(3, 'Serena', '123', '123'),
-(4, 'Hansie', '$2y$10$ihxA9A4jpY4cqrZVCXWU2OcD1YWsAduwV9SioMnxUUrzsQv7oJJIW', '$2y$10$m9GWyJ9gRS5/JSR9ZkS.B.2V4kaMTGOLAYX2eA1Kj4kzuOUjb7THi');
+(1, 'Lisha', '', ''),
+(2, 'Jesvita', 'abc', 'abc'),
+(3, 'Elvita', '123', '123'),
+(4, 'Jiya', '$2y$10$ihxA9A4jpY4cqrZVCXWU2OcD1YWsAduwV9SioMnxUUrzsQv7oJJIW', '$2y$10$m9GWyJ9gRS5/JSR9ZkS.B.2V4kaMTGOLAYX2eA1Kj4kzuOUjb7THi');
 
 -- --------------------------------------------------------
 
@@ -91,8 +91,8 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`id`, `name`, `employeeid`, `mobile`, `email`) VALUES
-(1, 'Jessica', 100, '7019978723', 'jessiferns@gmail.com'),
-(2, 'Ansilla', 101, '7530842234', 'ansillapais@gmail.com');
+(1, 'Jesvita', 100, '7019978723', 'jesvita@gmail.com'),
+(2, 'Lisha', 101, '7530842234', 'lishalobo@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -136,8 +136,8 @@ CREATE TABLE `ftransaction` (
 --
 
 INSERT INTO `ftransaction` (`id`, `name`, `fid`, `tid`) VALUES
-(1, 'Hansie', 9, 12345),
-(2, 'Hansie', 12, 1234);
+(1, 'Lisha', 9, 12345),
+(2, 'Lisha', 12, 1234);
 
 -- --------------------------------------------------------
 
@@ -191,7 +191,7 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `username`, `password`, `cpassword`) VALUES
 (1, 'jessica', '$2y$10$kpnJbssmXZ2NILCigYajI.BOHcmDZXF04Aukoogo.KjeNU8FPoF.K', '$2y$10$V9HE7V.UPKoi9nPqdGesc.a21f.dvBwJE5qqciZMsKgacqEOfG1O2'),
 (2, 'Ansilla', '$2y$10$AuXxLWZR68BXF5.4sjvztOB4ZMY/Ec39.uxseN0Bp3FZFV/DLQkmi', '$2y$10$BHltmv.xQ/2QPKfT85QtbujKpYG6qg.MRFtXVtX.Vxtv2C3aLW4wi'),
-(9, 'Serena', '$2y$10$zh7yacCoDwVH2DD/wSsQC.24MvWMg7EqkTW.PWT.lfiTnaeLkmJUW', '$2y$10$rWrkWcnniwGM0SOpaKXPvOP.ea4/7wl4344VkD8F3IAs7deDIBkVS'),
+(3, 'Serena', '$2y$10$zh7yacCoDwVH2DD/wSsQC.24MvWMg7EqkTW.PWT.lfiTnaeLkmJUW', '$2y$10$rWrkWcnniwGM0SOpaKXPvOP.ea4/7wl4344VkD8F3IAs7deDIBkVS'),
 (10, 'Supritha', '$2y$10$/wIwqf36SaxNLx8s2bDk1unMe.2snCR1P6XmkR00Z/Mwq/If18rMW', '$2y$10$0yzy3cIdaZJWEg5X8KFf4e.VwOnD6TR7RG2CzMTNd4Re6P5NC9dsS'),
 (11, 'Shri', '$2y$10$5j1YDDQTe5fX74m2Gu3o6OOdyL3kwB52XklwxB3s63JqJmGUKK5Tm', '$2y$10$GXEmRUD5X.xj1ZkBuE1./eSChhC3PAUCA/gEW7DWwE/jDeSLpJrS6'),
 (12, 'Poojitha', '$2y$10$Q5ZcuDbqgyrQuNDHxOq15OZvM2eRIeGuSXev/6bOX61jtucuBhT0O', '$2y$10$o1CHvCvsu0Mpe2nEqFxFHuwc5tHW3.ZUiYS7XxmZzuX0lVb9FAkcq'),
